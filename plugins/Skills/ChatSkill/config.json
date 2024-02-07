@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "description": "AI助手。与AI聊天,能回答你的问题",
+  "type": "completion",
+  "completion": {
+    "max_tokens": 1000,
+    "temperature": 0.9,
+    "top_p": 0,
+    "presence_penalty": 0,
+    "frequency_penalty": 0
+  },
+  "input": {
+    "parameters": [
+      {
+        "name": "input",
+        "description": "input parameter",
+        "defaultValue": "Introduce yourself"
+      },
+      {
+        "name": "history",
+        "description": "历史记录",
+        "defaultValue": ""
+      }
+    ]
+  }
+}
