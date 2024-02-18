@@ -106,7 +106,6 @@ async def getChatCount():
     data={'chat_count':chat_count,'voice_count':voice_count,'img_count':img_count}
     return json.dumps(data)
 
-
 #创建绘图并返回图片的url
 @bp.post('/drawCreateTask')
 async def drawCreateTask():
